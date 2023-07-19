@@ -16,13 +16,13 @@ jobs:
           node-version: 18.16.0
 
       - name: Install dependencies
-        run: 'npm install --omit=dev'
+        run: 'yarn install --production=true'
 
       - name: Install nx
-        run: 'npm install nx'
+        run: 'yarn add nx'
 
       - name: Build app
-        run: 'npm run build:app'
+        run: 'yarn run build:app'
 
       - name: Deploy app
         uses: FirebaseExtended/action-hosting-deploy@v0
