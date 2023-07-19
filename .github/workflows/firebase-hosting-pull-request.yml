@@ -9,8 +9,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: 'npm run build:service-hub'
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.16.0
+
+      - name: Install dependencies
+        run: 'npm install --omit=dev'
+
+      - name: Install nx
+        run: 'npm install nx'
+
+      - name: Build app
+        run: 'npm run build:app'
+
+      - name: Deploy app
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LA_ESTACION_HUB }}'
