@@ -419,8 +419,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
         <!--  WELCOME  -->
         <div id="welcome">
           <h1>
-            <span> Hello there, </span>
-            Welcome service-hub 👋
+            <span> Hola, </span>
+            Bienvenido a Service Hub 👋
           </h1>
         </div>
         <!--  HERO  -->
@@ -428,24 +428,22 @@ import { Component, ViewEncapsulation } from '@angular/core';
           <div class="text-container">
             <h2>
               <svg
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                height="48"
+                viewBox="0 -960 960 960"
+                width="48"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                />
+                  d="M344-296 160-480l184-184 42 44-140 140 140 140-42 44Zm-144 30h60v76h440v-76h60v166q0 24-18 42t-42 18H260q-24 0-42-18t-18-42v-166Zm60-440h-60v-154q0-24 18-42t42-18h440q24 0 42 18t18 42v154h-60v-64H260v64Zm0 576v30h440v-30H260Zm0-700h440v-30H260v30Zm356 534-42-44 140-140-140-140 42-44 184 184-184 184ZM260-830v-30 30Zm0 700v30-30Z"
+                ></path>
               </svg>
-              <span>You&apos;re up and running</span>
+              <span>Aplicación en construcción</span>
             </h2>
-            <a href="#commands"> What&apos;s next? </a>
+            <a href="#commands">Y... ¿ahora?</a>
           </div>
           <div class="logo-container">
-            <svg
+            <!-- <svg
               fill="currentColor"
               role="img"
               viewBox="0 0 24 24"
@@ -454,19 +452,14 @@ import { Component, ViewEncapsulation } from '@angular/core';
               <path
                 d="M11.987 14.138l-3.132 4.923-5.193-8.427-.012 8.822H0V4.544h3.691l5.247 8.833.005-3.998 3.044 4.759zm.601-5.761c.024-.048 0-3.784.008-3.833h-3.65c.002.059-.005 3.776-.003 3.833h3.645zm5.634 4.134a2.061 2.061 0 0 0-1.969 1.336 1.963 1.963 0 0 1 2.343-.739c.396.161.917.422 1.33.283a2.1 2.1 0 0 0-1.704-.88zm3.39 1.061c-.375-.13-.8-.277-1.109-.681-.06-.08-.116-.17-.176-.265a2.143 2.143 0 0 0-.533-.642c-.294-.216-.68-.322-1.18-.322a2.482 2.482 0 0 0-2.294 1.536 2.325 2.325 0 0 1 4.002.388.75.75 0 0 0 .836.334c.493-.105.46.36 1.203.518v-.133c-.003-.446-.246-.55-.75-.733zm2.024 1.266a.723.723 0 0 0 .347-.638c-.01-2.957-2.41-5.487-5.37-5.487a5.364 5.364 0 0 0-4.487 2.418c-.01-.026-1.522-2.39-1.538-2.418H8.943l3.463 5.423-3.379 5.32h3.54l1.54-2.366 1.568 2.366h3.541l-3.21-5.052a.7.7 0 0 1-.084-.32 2.69 2.69 0 0 1 2.69-2.691h.001c1.488 0 1.736.89 2.057 1.308.634.826 1.9.464 1.9 1.541a.707.707 0 0 0 1.066.596zm.35.133c-.173.372-.56.338-.755.639-.176.271.114.412.114.412s.337.156.538-.311c.104-.231.14-.488.103-.74z"
               />
-            </svg>
+            </svg> -->
           </div>
         </div>
         <!--  MIDDLE CONTENT  -->
         <div id="middle-content">
           <div id="learning-materials" class="rounded shadow">
-            <h2>Learning materials</h2>
-            <a
-              href="https://nx.dev/getting-started/intro?utm_source=nx-project"
-              target="_blank"
-              rel="noreferrer"
-              class="list-item-link"
-            >
+            <h2>Más información</h2>
+            <a href="" target="_blank" rel="noreferrer" class="list-item-link">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -481,8 +474,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
                 />
               </svg>
               <span>
-                Documentation
-                <span> Everything is in there </span>
+                Documentación
+                <span> Todo sobre Service Hub </span>
               </span>
               <svg
                 fill="none"
@@ -498,12 +491,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
                 />
               </svg>
             </a>
-            <a
-              href="https://blog.nrwl.io/?utm_source=nx-project"
-              target="_blank"
-              rel="noreferrer"
-              class="list-item-link"
-            >
+            <a href="" target="_blank" rel="noreferrer" class="list-item-link">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -519,7 +507,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
               </svg>
               <span>
                 Blog
-                <span> Changelog, features & events </span>
+                <span> Historial de cambios y caracteristicas </span>
               </span>
               <svg
                 fill="none"
@@ -535,47 +523,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
                 />
               </svg>
             </a>
-            <a
-              href="https://www.youtube.com/@NxDevtools/videos?utm_source=nx-project&sub_confirmation=1"
-              target="_blank"
-              rel="noreferrer"
-              class="list-item-link"
-            >
-              <svg
-                role="img"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>YouTube</title>
-                <path
-                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
-                />
-              </svg>
-              <span>
-                YouTube channel
-                <span> Nx Show, talks & tutorials </span>
-              </span>
-              <svg
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </a>
-            <a
-              href="https://nx.dev/angular-tutorial/1-code-generation?utm_source=nx-project"
-              target="_blank"
-              rel="noreferrer"
-              class="list-item-link"
-            >
+            <a href="" target="_blank" rel="noreferrer" class="list-item-link">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -590,49 +538,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
                 />
               </svg>
               <span>
-                Interactive tutorials
-                <span> Create an app, step-by-step </span>
-              </span>
-              <svg
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </a>
-            <a
-              href="https://nxplaybook.com/?utm_source=nx-project"
-              target="_blank"
-              rel="noreferrer"
-              class="list-item-link"
-            >
-              <svg
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path
-                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
-              <span>
-                Video courses
-                <span> Nx custom courses </span>
+                Ayuda
+                <span> Obtenga información sobre como usar Service Hub </span>
               </span>
               <svg
                 fill="none"
@@ -649,7 +556,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
               </svg>
             </a>
           </div>
-          <div id="other-links">
+          <div id="other-links" style="display: none">
             <a
               class="button-pill rounded shadow nx-console"
               href="https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console&utm_source=nx-project"
@@ -697,7 +604,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
                 >
               </span>
             </a>
-            <div id="nx-cloud" class="rounded shadow">
+            <div id="nx-cloud" class="rounded shadow" style="display: none">
               <div>
                 <svg
                   id="nx-cloud-logo"
@@ -760,73 +667,28 @@ import { Component, ViewEncapsulation } from '@angular/core';
         </div>
         <!--  COMMANDS  -->
         <div id="commands" class="rounded shadow">
-          <h2>Next steps</h2>
-          <p>Here are some things you can do with Nx:</p>
+          <h2>Lo que sigue</h2>
+          <p>Aquí hay algunas cosas que puedes hacer:</p>
           <details>
             <summary>
               <svg
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
+                height="48"
+                viewBox="0 -960 960 960"
+                width="48"
+                fill="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                />
+                  d="M596.817-220Q556-220 528-248.183q-28-28.183-28-69T528.183-386q28.183-28 69-28T666-385.817q28 28.183 28 69T665.817-248q-28.183 28-69 28ZM180-80q-24 0-42-18t-18-42v-620q0-24 18-42t42-18h65v-60h65v60h340v-60h65v60h65q24 0 42 18t18 42v620q0 24-18 42t-42 18H180Zm0-60h600v-430H180v430Zm0-490h600v-130H180v130Zm0 0v-130 130Z"
+                ></path>
               </svg>
-              Add UI library
+              Ver el programa de predicación en versión de prueba
             </summary>
-            <pre><span># Generate UI lib</span>
+          </details>
+          <!-- <pre><span># Generate UI lib</span>
 nx g @nx/angular:lib ui
 <span># Add a component</span>
-nx g @nx/angular:component button --project ui</pre>
-          </details>
-          <details>
-            <summary>
-              <svg
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                />
-              </svg>
-              View interactive project graph
-            </summary>
-            <pre>nx graph</pre>
-          </details>
-          <details>
-            <summary>
-              <svg
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                />
-              </svg>
-              Run affected commands
-            </summary>
-            <pre><span># see what&apos;s been affected by changes</span>
-nx affected:graph
-<span># run tests for current changes</span>
-nx affected:test
-<span># run e2e tests for current changes</span>
-nx affected:e2e</pre>
-          </details>
+nx g @nx/angular:component button --project ui</pre> -->
         </div>
         <p id="love">
           Carefully crafted with
