@@ -1,0 +1,39 @@
+:host {
+}
+
+.schedule {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  padding: 0px 10px 0px 0px;
+}
+
+.schedule .schedule__day {
+  display: grid;
+  place-items: center;
+}
+
+.schedule .schedule__day-month {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  color: white;
+  background-color: rebeccapurple;
+}
+
+.schedule .schedule__assignments {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.schedule .schedule__assignment {
+  width: 100%;
+}
+
+.schedule:not(:first-child) {
+  padding-top: 20px;
+}

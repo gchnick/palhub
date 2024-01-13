@@ -1,0 +1,28 @@
+:host.assignment-card {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 2px 6px 6px;
+  border-radius: 10px;
+  gap: 2px;
+  background-color: rgb(241, 102, 130);
+}
+
+:host span {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+:host.assignment-card .assignment-card__icon {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+:host.assignment-card .assignment-card__text {
+  color: white;
+}
+
+:host.assignment-card span:nth-child(-n + 3) .assignment-card__text {
+  font-weight: 500;
+}

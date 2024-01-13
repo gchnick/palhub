@@ -2,7 +2,7 @@ import { Meta } from '@storybook/angular';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
 export default {
-  title: 'NxWelcomeComponent',
+  title: 'Design System/Templates/Welcome',
   component: NxWelcomeComponent,
 } as Meta<NxWelcomeComponent>;
 

@@ -5,13 +5,17 @@
   "scripts": {
     "build:app": "nx run service-hub:build",
     "start:app": "nx run service-hub:serve:production",
+    "test:app": "nx run service-hub:test",
+    "test-watch:app": "nx run service-hub:test --watch",
+    "storybook:app": "nx run service-hub:storybook --host 0.0.0.0",
+    "lint:app": "nx run service-hub:lint",
+    "e2e:app": "nx run service-hub:e2e",
     "build:api": "nx run api:build",
     "start:api": "nx run api:serve:production",
-    "test:app": "nx run app:test",
-    "test-watch:app": "nx run app:test --watch",
     "test:api": "nx run api:test",
     "test-watch:api": "nx run api:test --watch",
-    "storybook:app": "nx run app:storybook --host 0.0.0.0"
+    "lint:api": "nx run api:lint",
+    "e2e:api": "nx run api:e2e"
   },
   "private": true,
   "dependencies": {
@@ -27,14 +31,15 @@
     "@nestjs/common": "^9.1.1",
     "@nestjs/core": "^9.1.1",
     "@nestjs/platform-express": "^9.1.1",
-    "@nikosoftware/core-ui": "^0.5.0",
-    "@nikosoftware/svg-icons": "^0.0.1",
+    "@nikosoftware/core-ui": "^0.5.3",
+    "@nikosoftware/svg-icons": "^0.0.7",
     "axios": "^1.0.0",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0",
-    "tslib": "^2.3.0",
+    "tslib": "2.3.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {

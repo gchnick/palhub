@@ -1,0 +1,52 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.layout__content {
+  scroll-behavior: smooth;
+  overflow: hidden;
+  overflow-y: scroll;
+  transition: 300ms;
+}
+
+/* mobile layout  */
+:host.layout--mobile .layout__content {
+  position: absolute;
+  top: 4rem;
+  width: 100vw;
+  height: calc(100% - 9rem);
+  max-height: calc(100% - 9rem);
+}
+
+:host.layout--mobile .layout__content--scroll-down {
+  top: 0;
+  height: calc(100% - 5rem);
+  max-height: calc(100% - 5rem);
+}
+
+/* desktop layout */
+:host.layout--desktop .layout__topbar {
+  left: 22.5rem;
+}
+
+:host.layout--desktop .layout__content {
+  position: absolute;
+  top: 9.5rem;
+  left: 22.5rem;
+  height: calc(100% - 9.5rem);
+  width: 100%;
+  max-height: calc(100% - 9.5rem);
+  max-width: calc(100% - 22.5rem);
+}
+
+:host.layout--desktop .layout__content--scroll-down {
+  top: 0;
+  height: calc(100%);
+  max-height: calc(100%);
+}
+
+:host.layout--desktop .layout__content--scroll-up {
+  top: 4rem;
+  height: calc(100% - 4rem);
+  max-height: calc(100% - 4rem);
+}
