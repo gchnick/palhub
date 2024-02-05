@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/apps/service-hub",
+    "public": "dist/palhub",
     "ignore": [
       "firebase.json",
       "**/.*",

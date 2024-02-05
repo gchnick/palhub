@@ -1,27 +1,31 @@
-# Palhub
+# PalHub
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+Esta es una aplicación móvil de la congregación `La Estación`. Con ella los publicadores de la congregación pueden ver los grupos de predicación de la semana junto con toda la información relacionada con la salida de servicio.
 
-## Development server
+**Los conductores** de grupo de predicación pueden recibir su asignación e informar sobre ella desde la aplicación. Recibirá notificaciones recordando su asignación y cuando terminé se le recordará que debe informar la cobertura del territorio.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+La casas que se usen como **anfitrión para las reuniones para el sercio del campo** tambien recibiran una notificación cuando su casa sea asignada pudiendo confirmar su disponibilidad.
 
-## Code scaffolding
+Entre la información disponible para los publicadores sobre la salida a predicar esta la siguiente:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Hora de salida
+- Lugar de encuentro junto con la ubicación relacionada con Google Map
+- Número y nombre del territorio asignado para predicar
+- Nombre de conductor y sus datos de contacto
+- Capacidad de compartir y descargar el archivo del programa de predicación en formatos de imagen y PDF
 
-## Build
+Adicionalmente el conductor del grupo para predicar dispondrá de esta información:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Mapa del territorio asignado
+- Datos de contacto del anfitrión, si el punto de encuentro es en casa de un hermano
+- Capacidad de enviar informe sobre la cobertura del territorio
 
-## Running unit tests
+## Funciones futuras
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Esta aplicación se dotará de más funciones en un futura alguna de ellas son las siguientes:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Titulo del discurso del fin de semana para invitar a las personas interesada
+- Los precursores podrán llevar su registro de horas de predicación
+- Llevar un `registro local` (no en línea) de las personas interesadas. La aplicación le ayudará a que el registro de la ubicación sea más sencillo
+- Enviar el informe de servcio a su superintedente ó siervo de grupo
+- Ver programa y asignaciones para la predicación pública con exhibidores de la congregación
