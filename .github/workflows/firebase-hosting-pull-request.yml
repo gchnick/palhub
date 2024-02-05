@@ -16,10 +16,7 @@ jobs:
           node-version: 20.10.0
 
       - name: Install dependencies
-        run: 'yarn install --production=true'
-
-      - name: Install Angular Cli
-        run: 'yarn global add @angular/cli@latest'
+        run: 'yarn'
 
       - name: Build app
         run: 'yarn build'
