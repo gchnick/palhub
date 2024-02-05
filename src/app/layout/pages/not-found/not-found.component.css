@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--m3-font-family);
+  color: var(--m3-neutral-on-surface);
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+}
+
+.not-found__code {
+  line-height: 67px;
+  font-size: 60px;
+}
+
+.not-found__message {
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.not-found__link {
+}

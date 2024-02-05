@@ -1,0 +1,36 @@
+<span>
+  <ui-icon class="assignment-card__icon" name="location_on_fill" />
+  <ui-typescale
+    class="assignment-card__text"
+    type="body"
+    size="large"
+    [text]="referencePoint"
+  />
+</span>
+<span>
+  <ui-icon class="assignment-card__icon" name="map_fill" />
+  <ui-typescale
+    class="assignment-card__text"
+    type="body"
+    size="large"
+    [text]="territoryAssigned"
+  />
+</span>
+<span>
+  <ui-icon class="assignment-card__icon" name="account_circle_fill" />
+  <ui-typescale
+    class="assignment-card__text"
+    type="body"
+    size="large"
+    [text]="conductor"
+  />
+</span>
+<span>
+  <ui-icon class="assignment-card__icon" name="schedule_fill" />
+  <ui-typescale
+    class="assignment-card__text"
+    type="body"
+    size="large"
+    [text]="date | preachTime : 120"
+  />
+</span>

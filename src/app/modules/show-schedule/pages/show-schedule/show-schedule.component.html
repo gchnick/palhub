@@ -1,0 +1,28 @@
+<div class="schedule" *ngFor="let meeting of meetings">
+  <div>
+    <div class="schedule__day">
+      <ui-typescale
+        class="schedule__week-day"
+        type="body"
+        size="small"
+        [text]="(meeting.day | date : 'EE') ?? ''"
+      />
+      <ui-typescale
+        class="schedule__day-month"
+        type="body"
+        size="large"
+        [text]="(meeting.day | date : 'd') ?? ''"
+      />
+    </div>
+  </div>
+  <div class="schedule__assignments">
+    <app-assignment-card
+      class="schedule__assignment"
+      [referencePoint]="assignment.referencePoint.label"
+      [territoryAssigned]="assignment.territoryAssigned.label"
+      [conductor]="assignment.conductor.name"
+      [date]="assignment.date"
+      *ngFor="let assignment of meeting.assignments"
+    />
+  </div>
+</div>
