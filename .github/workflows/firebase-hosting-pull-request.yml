@@ -18,8 +18,11 @@ jobs:
       - name: Install dependencies
         run: 'yarn install --production=true'
 
+      - name: Install Angular Cli
+        run: 'yarn global add @angular/cli@latest'
+
       - name: Build app
-        run: 'yarn run build'
+        run: 'yarn build'
 
       - name: Deploy app
         uses: FirebaseExtended/action-hosting-deploy@v0
